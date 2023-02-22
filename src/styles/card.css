@@ -1,0 +1,23 @@
+.card-item {
+    /* width: 22.5%; */
+    /* margin: 0 1rem; */
+}
+
+.card-item .card-img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-item .card-text {
+    color: #666;
+
+}
+
+.modal-container {
+    overflow: hidden;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+}
